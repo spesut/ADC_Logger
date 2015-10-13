@@ -1,0 +1,16 @@
+The repository provides a project to log ADC measurements from an ATSAMD10 to the PC.
+
+The project is based on the DefaultSAMD10Project repository.
+Files in the "AtmelFiles" directory are taken from the Atmel Software Framework (v3.25.0.20).
+
+The project is setup for the ATSAMD10D14AS.  To use another processor in the ATSAMD10 family, the following project properties need to be modified:
+	C/C++ Build->Settings->Cross ARM C Compiler->Preprocessor->Defined symbols
+	C/C++ Build->Settings->Cross ARM C Linker->General->Script Files
+
+Project dependecies:
+	arm-none-eabi-binutils-cs
+	arm-none-eabi-gcc-cs
+	arm-none-eabi-gcc-cs-c++
+	arm-none-eabi-newlib
+	Eclipse Mars for C/C++ Development (see http://www.if-not-true-then-false.com/2010/linux-install-eclipse-on-fedora-centos-red-hat-rhel/)
+	GNU ARM Eclipse Plug-ins (see http://gnuarmeclipse.livius.net/blog/plugins-install/)
