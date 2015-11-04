@@ -20,7 +20,7 @@ void USART_Enable( USART_RXPO	RXPad,
 	SERCOM1->USART.CTRLA.bit.DORD = DataOrder;
 	SERCOM1->USART.BAUD.bit.BAUD = Sercom_BaudRegister;
 
-	// Enable the transmitter and reciever
+	// Enable the transmitter and receiver
 	SERCOM1->USART.CTRLB.bit.RXEN = 1;
 	SERCOM1->USART.CTRLB.bit.TXEN = 1;
 
