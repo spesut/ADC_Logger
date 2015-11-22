@@ -1,5 +1,5 @@
 
-#include "../HeaderFiles/GCLK_Driver.h"
+#include "GCLK_Driver.h"
 
 
 void GCLK_Enable( GCLK_SRC GenClkSrc,

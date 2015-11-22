@@ -1,5 +1,5 @@
 
-#include "../HeaderFiles/USART_Sercom_Driver.h"
+#include "USART_Sercom_Driver.h"
 
 void USART_Enable( USART_RXPO	RXPad,
 				   USART_TXPO	TXPad,

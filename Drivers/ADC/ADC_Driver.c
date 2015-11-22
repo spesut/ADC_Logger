@@ -1,5 +1,5 @@
 
-#include "../HeaderFiles/ADC_Driver.h"
+#include "ADC_Driver.h"
 
 
 void ADC_Enable( ADC_REFSEL ReferenceSelect,
