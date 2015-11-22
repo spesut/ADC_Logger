@@ -1,4 +1,8 @@
 
+#ifndef USART_SERCOM_DRIVER_H
+#define USART_SERCOM_DRIVER_H
+
+
 #include <stdint.h>
 #include "samd10.h"
 
@@ -71,3 +75,5 @@ void USART_Enable( USART_RXPO	RXPad,
 void USART_Reset( void );
 uint8_t	USART_BlockingReadByte( void );
 void USART_BlockingWriteByte( uint8_t data );
+
+#endif //USART_SERCOM_DRIVER_H

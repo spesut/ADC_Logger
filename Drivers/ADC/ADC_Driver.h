@@ -1,6 +1,9 @@
+#ifndef ADC_DRIVER_H
+#define ADC_DRIVER_H
+
+
 #include <stdint.h>
 #include "samd10.h"
-
 
 typedef enum
 {
@@ -81,3 +84,5 @@ void ADC_Enable( ADC_REFSEL ReferenceSelect,
 uint16_t ADC_BlockingRead( void );
 
 void ADC_Reset( void );
+
+#endif //ADC_DRIVER_H

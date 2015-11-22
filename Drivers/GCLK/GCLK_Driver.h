@@ -1,6 +1,8 @@
+#ifndef GCLK_DRIVER_H
+#define GCLK_DRIVER_H
+
 
 #include "samd10.h"
-
 
 typedef enum
 {
@@ -64,3 +66,6 @@ void GCLK_Enable( GCLK_SRC GenClkSrc,
 				  GCLK_SELECT IDVal );
 
 void GCLK_Reset( void );
+
+
+#endif	//GCLK_DRIVER_H
